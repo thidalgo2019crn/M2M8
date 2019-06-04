@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    .primari{
+      width:800px;
+      background-color:magenta;
+      position:relative;
+      padding:0;
+    }
+    .primari li{
+      background-color: Thistle;
+      display:block;
+      float:left;
+      width:200px;
+    }
+    .primari li:hover > .secundari{
+    display:block;
+    }
+    .secundari{
+      background-color:orange;
+      position:relative;
+      float:left;
+      display:none;
+    }
+
+    .secundari li{
+      background-color: MediumAquaMarine ;
+      list-style-type: none;
+      width:300px;
+    }
+    h3{
+      background-color:DarkOrchid;
+      margin:0;
+      display:inline-block;
+      width:200px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Llistat d'activitats</h1>
+  <ul class="primari">
+      <li>
+        <h3>UF1</h3>
+        <ul class="secundari">
+          <li><a href="UF1/m2m8uf0101_thidalgo/index.html">m2m8uf0101_thidalgo</a></li>
+          <li><a href="UF1/m2m8uf0102_thidalgo/index.html">m2m8uf0102_thidalgo</a></li>
+          <li><a href="UF1/m2m8uf103_thidalgo/index.html">m2m8uf0103_thidalgo</a></li>
+          <li><a href="UF1/m2m8uf104_thidalgo/Fitxer original/index.html">m2m8uf0104_thidalgo</a></li>
+          <li><a href="UF1/m2m8uf105_thidalgo/Fitxer Original/index.html">m2m8uf0105_thidalgo</a></li>
+        </ul>
+      </li>
+      <li>
+        <h3>UF3</h3>
+        <ul class="secundari">
+          <li><a href="UF3/m2m8uf301_thidalgo/index.html">m2m8uf0301_thidalgo</a></li>
+          <li><a href="UF3/m2m8uf302_thidalgo/m2m8uf302_thidalgo.html">m2m8uf0302_thidalgo</a></li>
+          <li><a href="UF3/m2m8uf303_thidalgo/Registre.html">m2m8uf0303_thidalgo</a></li>
+        </ul>
+      </li>
+    <li>
+      <h3>UF4</h3>
+      <ul class="secundari">
+        <li><a href="UF4/Fonaments del comunisme/Fonaments comunisme.epub">Fonaments del comunisme</a></li>
+
+      </ul>
+    </li>
+  </ul>
+</body>
+</html>
