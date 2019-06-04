@@ -7,10 +7,15 @@ body{
 width:200px;
 height:200px;
 margin-top: -280px;
-margin-left: 50px;
+margin-left: 130px;
 border-radius:100px;
 box-shadow: inset 50px 0px 0 #666;
-
+-webkit-animation: girar 2s infinite linear;
+  animation: girar 2s infinite linear;
+}
+@-webkit-keyframes girar {
+  from { transform: rotate(0deg)  translate(-100px) rotate(360deg); }
+  to { transform: rotate(0deg) translate(-100px) rotate(0deg); }
 }
 #nube{
   width: 250px;
@@ -20,7 +25,18 @@ box-shadow: inset 50px 0px 0 #666;
   position: relative;
   left: 380px;
   top: 100px;
+  animation-name: moven;
+  -webkit-animation: moven 5s linear 4s infinite alternate;
+  animation: moven 3s linear 2s infinite alternate;
 }
+@keyframes moven {
+  0%   { left:380px; top:100px;}
+  25%  { left:480px; top:100px;}
+  50%  {left:980px; top:100px;}
+  75%  { left:780px; top:100px;}
+  100% { left:380px; top:100px;}
+}
+
 #nube::after{
   content: " ";
   background-color: #FFF;
@@ -47,6 +63,16 @@ box-shadow: inset 50px 0px 0 #666;
   position: relative;
   left: 1400px;
   bottom: 100px;
+  animation-name: moveu;
+  -webkit-animation: moveu 4s linear 4s infinite alternate;
+  animation: moveu 6s linear 2s infinite alternate;
+  }
+@keyframes moveu {
+  0%   { left:1080px; top:60px;}
+  25%  { left:880px; top:60px;}
+  50%  {left:980px; top:60px;}
+  75%  { left:780px; top:60px;}
+  100% { left:380px; top:60px;}
 }
 #nubeu::after{
   content: " ";
