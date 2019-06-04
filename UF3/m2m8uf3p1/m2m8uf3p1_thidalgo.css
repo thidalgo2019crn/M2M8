@@ -1,0 +1,125 @@
+body{
+  font-family: sans-serif;
+  background-color: #DDD;
+}
+#menu li{
+color: grey;
+text-align: center;
+display: inline-block;
+width: 150px;
+}
+#Primer{
+background-color: white;
+height: 100px;
+}
+#Edición{
+  width: 280px;
+  height: 700px;
+  background-color:white;
+  float: left;
+  margin-left: 220px;
+  margin-bottom: 50px;
+}
+.Edición{
+  width: 280px;
+  height: 700px;
+  background-color: white;
+  float: left;
+  margin-left: 25px;
+  margin-bottom: 50px;
+}
+.parrafo{
+  font-size: 15px;
+  color: #DDD;
+  text-align: left;
+}
+h1{
+  font-size: 25px;
+  color: black;
+}
+p{
+  text-align: right;
+  color: black;
+}
+
+}
+li{
+  margin: 20px;
+  clear: left;
+  text-align: center;
+}
+h2{
+  font-size: 15px;
+  margin-left: 5px;
+}
+.Mini{
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  float: left;
+}
+#Cupula{
+  width:150px;
+  height:100px;
+  float: left;
+}
+.AbajoEdición{
+  width: 280px;
+  height: 700px;
+  background-color: white;
+  margin-left: 25px;
+  margin-bottom: 50px;
+  float: left;
+  margin-left: 220px;
+  margin-bottom: 50px;
+}
+.SegundoAbajo{
+  width: 280px;
+  height: 700px;
+  background-color: white;
+  margin-left: 25px;
+  margin-bottom: 50px;
+  float: left;
+  margin-left: 25px;
+  margin-bottom: 50px;
+}
+.TerceraAbajoEdición{
+  width: 280px;
+  height: 700px;
+  background-color: white;
+  margin-left: 25px;
+  margin-bottom: 50px;
+  float: left;
+  margin-left: 220px;
+  margin-bottom: 50px;
+}
+.TerceroSegundoAbajo{
+  width: 280px;
+  height: 700px;
+  background-color: white;
+  margin-left: 25px;
+  margin-bottom: 50px;
+  float: left;
+  margin-left: 25px;
+  margin-bottom: 50px;
+}
+.CuartaAbajoEdición{
+  width: 280px;
+  height: 700px;
+  background-color: white;
+  margin-left: 25px;
+  margin-bottom: 50px;
+  float: left;
+  margin-left: 220px;
+  margin-bottom: 50px;
+}
+.CuartaSegundoAbajo{
+  width: 280px;
+  height: 700px;
+  background-color: white;
+  margin-left: 25px;
+  margin-bottom: 50px;
+  float: left;
+  margin-left: 25px;
+  margin-bottom: 50px;
+}

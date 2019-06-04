@@ -1,0 +1,30 @@
+body{
+font-family: Arial;
+}
+div{
+  background-color: yellow;
+  width: 400px;
+}
+#Lateral{
+  background-color: orange;
+  float: right;
+  width: 828px;
+}
+#Principal{
+  background-color: plum;
+  width: 828px;
+  
+
+
+}
+#Peu{
+  background-color: LightCyan;
+
+}
+.c1{
+  padding: 25px;
+}
+.z2{
+  padding: 25px 0 0 25px;
+  color: white;
+}
