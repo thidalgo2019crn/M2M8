@@ -1,0 +1,187 @@
+body{
+  background-color:SteelBlue ;
+  margin: 0;
+  padding: 0;
+}
+.lluna{
+width:200px;
+height:200px;
+margin-top: -280px;
+margin-left: 50px;
+border-radius:100px;
+box-shadow: inset 50px 0px 0 #666;
+
+}
+#nube{
+  width: 250px;
+  height: 150px;
+  background-color: #FFF;
+  border-radius: 100%;
+  position: relative;
+  left: 380px;
+  top: 100px;
+}
+#nube::after{
+  content: " ";
+  background-color: #FFF;
+  padding: 50px 70px;
+  border-radius: 100%;
+  position: relative;
+  left: 70px;
+  top: 50px;
+}
+#nube::before{
+  content: " ";
+  background-color: #FFF;
+  padding: 40px 50px ;
+  border-radius: 50%;
+  position: relative;
+  left: -50px;
+  top: 50px;
+}
+#nubeu{
+  width: 250px;
+  height: 150px;
+  background-color: #FFF;
+  border-radius: 100%;
+  position: relative;
+  left: 1400px;
+  bottom: 100px;
+}
+#nubeu::after{
+  content: " ";
+  background-color: #FFF;
+  padding: 50px 70px;
+  border-radius: 100%;
+  position: relative;
+  left: 70px;
+  top: 50px;
+}
+#nubeu::before{
+  content: " ";
+  background-color: #FFF;
+  padding: 40px 50px ;
+  border-radius: 50%;
+  position: relative;
+  left: -50px;
+  top: 50px;
+
+}
+
+
+#triangulo1::after{
+  content: " ";
+  width: 0;
+  height: 0;
+  border-right: 400px solid transparent;
+  border-top: 400px solid transparent;
+  border-left: 400px solid transparent;
+  border-bottom: 400px solid orange;
+  position: absolute;
+  top: -400px;
+  left: 0px;
+  z-index: 1;
+}
+#triangulo2::before{
+  content: " ";
+  width: 0;
+  height: 0;
+  border-right: 500px solid transparent;
+  border-top: 500px solid transparent;
+  border-left: 500px solid transparent;
+  border-bottom: 500px solid DarkOrange ;
+  position: relative;
+  bottom:118px;
+  left: 300px;
+  z-index: 2;
+}
+#triangulo3::before{
+  content: " ";
+  width: 0;
+  height: 0;
+  border-right: 700px solid transparent;
+  border-top: 700px solid transparent;
+  border-left: 700px solid transparent;
+  border-bottom: 700px solid FireBrick  ;
+  position: relative;
+  bottom:336px;
+  left: 500px;
+  z-index: 3;
+}
+#flor {
+  position: absolute;
+  top: 400px;
+  width: 300px;
+  height: 300px;
+  z-index: 10;
+	-webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(360deg);
+		}
+}
+#tallo{
+  position: absolute;
+  width: 20px;
+  height: 530px;
+  background:green;
+  margin-left: 140px;
+  margin-top: 340px;
+  z-index: 8;
+}
+.piramides{
+  position: absolute;
+  top: 700px;
+  left: 20px;
+  z-index: 9;
+}
+#hor1{
+  position: absolute;
+  margin-top: 795px;
+  margin-left: 20px;
+  width: 110px;
+  height: 55px;
+  background-color: black;
+  border-radius: 100px/50px;
+  z-index: 11;
+}
+#hor2{
+  position: absolute;
+  margin-top: 800px;
+  margin-left: 120px;
+  width: 100px;
+  height: 50px;
+  background-color: black;
+  border-radius: 100px/50px;
+  z-index: 11;
+}
+#hor3{
+  position: absolute;
+  margin-top: 800px;
+  margin-left: 210px;
+  width: 100px;
+  height: 50px;
+  background-color: black;
+  border-radius: 100px/50px;
+  z-index: 11;
+
+}
+
+@keyframes horizontal {
+  0% {
+     transform: translate(0, 0);
+  }
+  100% {
+     transform: translate(1600px,0);
+  }
+}
+.hor{
+  position: absolute;
+  animation: horizontal 8s linear infinite alternate;
+  z-index: 20;
+}
